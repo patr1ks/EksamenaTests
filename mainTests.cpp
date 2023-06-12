@@ -20,13 +20,13 @@ void Atbilde(string jaut, int sk1, int sk2 ){
             cout<<"Pareizi!\n";
             if(punkts == 1){
                 rez++;
-            }
+            }   
         }
-    }while(pareizi==false);
-    
+    }while(pareizi==false); 
 }
 
 int main() {
+system("cls");
 vector<vector<int>> nAtb = {
 {2,0},{2,4},{1,2},{3,4},{2,3},{1,0},{3,0},{1,2},{1,4},{2,4}
 };
@@ -44,12 +44,18 @@ string jaut[10] = {
     "10. Kuras no sim ir operacijas ar bool?\n\n1) &&\n2) ??\n3) ||\n4) ^\n\n Atbilde: "
     };
 
+    cout<<"\x1b[31mTests par temu \"Mainigie, to datu tipi, pamatdarbibas darbam ar tiem c++\" \x1b[0m\n\n";
+    cout<<"\033[36mTesta ir 10 jautajumi. Katram jautajumam ir 4 atbilzu varianti.\nNo 4 atbilzu variantiem pareizas ir 2 vai 3 atbildes. \033[0m\n";
+    cout<<"\033[36mTesta beigas paradis uz cik jautajumiem tika atbildets pareizi ar pirmo meginajumu. \033[0m\n";
+    cout<<"\033[36mNospied enter lai saktu testu: \033[0m";
+    cin.ignore();
+    system("cls");
+
     for(int i =0; i<10; i++){
      for(int j=0; j<1; j++){
-        Atbilde(jaut[i],nAtb[i][j], nAtb[i][j+1]);
+        Atbilde(jaut[i],nAtb[i][j], nAtb[i][j+1]);  
      }   
     }
     cout<<"Jautajumi atbildeti pareizi ar pirmo meginajumu: "<<rez;
 }
-
-//Fun fact:2PT1 skolēns Reinis Emīls Aļļis vel nav iznacis no skapja #lgbbq
+ 
