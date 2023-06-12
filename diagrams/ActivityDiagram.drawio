@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" modified="2023-06-02T15:55:09.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="umfyB2EzWG-5BmyjPPZD" version="21.3.6" type="device">
+  <diagram name="Lapa-1" id="gguib2nrCukZLpIcFEeT">
+    <mxGraphModel dx="989" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="UH1jHgdzGBn_T0Vkucm--2" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UH1jHgdzGBn_T0Vkucm--4" target="UH1jHgdzGBn_T0Vkucm--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--4" value="Programmas startēšana" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--5" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="195" y="260" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--10" value="Rezultāts, cik jautājumi atbildēti pareizi ar pirmo reizi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--11" value="Tiek uzdots jautājums&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294.58" y="270" as="sourcePoint" />
+            <mxPoint x="294.58" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--15" value="Izvēlēts pareizais atbilžu variants" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="540" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294.58" y="380" as="sourcePoint" />
+            <mxPoint x="294.58" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="UH1jHgdzGBn_T0Vkucm--28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="600" as="sourcePoint" />
+            <mxPoint x="420" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--21" value="Jā" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="600" as="sourcePoint" />
+            <mxPoint x="230" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="600" />
+              <mxPoint x="170" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--23" value="Nē" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="570" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--25" value="Atbild uz jautājumu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294.58" y="490" as="sourcePoint" />
+            <mxPoint x="294.58" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="UH1jHgdzGBn_T0Vkucm--10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="735" as="sourcePoint" />
+            <mxPoint x="570" y="735" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--28" value="Visi jautājumi ir atbildēti pareizi" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="675" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UH1jHgdzGBn_T0Vkucm--28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="735" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="735" />
+              <mxPoint x="140" y="230" />
+              <mxPoint x="210" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--30" value="Nē" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="705" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--32" value="Jā" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="705" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--33" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="675" y="1000" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="690" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="300" />
+              <mxPoint x="690" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--37" value="Programmas beigšana" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.58" y="950" as="sourcePoint" />
+            <mxPoint x="689.58" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UH1jHgdzGBn_T0Vkucm--10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="825" as="sourcePoint" />
+            <mxPoint x="680" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652" y="735" as="sourcePoint" />
+            <mxPoint x="682" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652" y="599.53" as="sourcePoint" />
+            <mxPoint x="682" y="599.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652" y="459.7699999999999" as="sourcePoint" />
+            <mxPoint x="682" y="459.7699999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UH1jHgdzGBn_T0Vkucm--43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652" y="349.7699999999999" as="sourcePoint" />
+            <mxPoint x="682" y="349.7699999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
