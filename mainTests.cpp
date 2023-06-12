@@ -2,6 +2,30 @@
 #include <vector>
 using namespace std;
 
+int rez=0;
+void Atbilde(string jaut, int sk1, int sk2 ){
+    int atb, punkts=1;
+    bool pareizi =false;
+    do{
+         cout<<jaut;
+         
+        do{
+        cin>>atb;
+        }while(atb<1 || atb>4 );
+        if(atb == sk1 || atb == sk2){
+            cout<<"Nepareizi!\n";
+            punkts--;
+        }else{
+            pareizi = true;
+            cout<<"Pareizi!\n";
+            if(punkts == 1){
+                rez++;
+            }
+        }
+    }while(pareizi==false);
+    
+}
+
 int main() {
 vector<vector<int>> nAtb = {
 {2,0},{2,4},{1,2},{3,4},{2,3},{1,0},{3,0},{1,2},{1,4},{2,4}
@@ -19,4 +43,13 @@ string jaut[10] = {
     "9. Kuri no siem datu tipiem ir isti?\n\n1) unsigned double\n2) unsigned short\n3) unsigned long\n4) unsigned float\n\n Atbilde: ",
     "10. Kuras no sim ir operacijas ar bool?\n\n1) &&\n2) ??\n3) ||\n4) ^\n\n Atbilde: "
     };
+
+    for(int i =0; i<10; i++){
+     for(int j=0; j<1; j++){
+        Atbilde(jaut[i],nAtb[i][j], nAtb[i][j+1]);
+     }   
+    }
+    cout<<"Jautajumi atbildeti pareizi ar pirmo meginajumu: "<<rez;
 }
+
+//Fun fact:2PT1 skolēns Reinis Emīls Aļļis vel nav iznacis no skapja #lgbbq
