@@ -6,5 +6,4 @@ Tests par tēmu "Mainīgie, to datu tipi, pamatdarbības darbam ar tiem programm
 - [x] Mācību materiālā ievietoti vismaz 5 koda piemēri  
 - [x] Ja atbild nepareizi jautājums atkārtojas
 - [x] Ja atbild pareizi uzdod nākamo jautājumu
-- [ ] Testa beigās parāda uz cik jautājumiem atbildēts pareizi ar pirmo mēģinājumu 
-- [ ] Izveidota prezentācija par visu paveikto
+- [x] Testa beigās parāda uz cik jautājumiem atbildēts pareizi ar pirmo mēģinājumu 
